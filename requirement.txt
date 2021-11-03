@@ -1,0 +1,7 @@
+beautifulsoup4
+pandas 
+matplotlib
+torch==1.8.1
+sentencepiece
+transformers
+rouge-score
