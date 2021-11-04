@@ -23,7 +23,7 @@ class scrap:
 
 
     def scrap_via_bs4(self,links):
-        'input link, it will scrap the data from the link and store in variable'
+        '''input link, it will scrap the data from the link and store in variable'''
         for link in links:
             url = link
             html = urlopen(url) # make an connection to the link and apply bs4
