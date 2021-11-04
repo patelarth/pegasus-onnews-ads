@@ -1,3 +1,8 @@
+#this file work as module if you doing code in the .py file
+# you can direct import the code using from scrape import scrap
+#it also workd with the jupyter notebook.
+
+
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import re
